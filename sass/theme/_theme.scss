@@ -5,7 +5,7 @@ body{
 }
 
 #wrapper-navbar{
-   border-bottom: solid 1px #cccccc;
+   border-bottom: 0.01em solid  #ddd;
 }
 
 
@@ -212,6 +212,7 @@ footer h4, footer h6 {
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #001A33;
+        border-bottom: 1px solid #cccccc;
     }
 
     #topNav {

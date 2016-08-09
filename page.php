@@ -45,6 +45,6 @@ get_header(); ?>
         
     </div><!-- Container end -->
     
-</div><!-- Wrapper end -->
+</div><!-- Wrapper end mishu-->
 
 <?php get_footer(); ?>

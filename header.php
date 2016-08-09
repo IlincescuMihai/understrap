@@ -39,11 +39,8 @@
 
                                 <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 
-                                  <button class="navbar-toggle hidden-sm-up" type="button" data-toggle="collapse" data-target=".exCollapsingNavbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
+                                 <button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                                    ☰
                                 </button>
 
                                 <!-- Your site title as branding in the menu -->
@@ -55,7 +52,8 @@
                             <?php wp_nav_menu(
                                     array(
                                         'theme_location' => 'primary',
-                                        'container_class' => 'collapse navbar-toggleable-xs exCollapsingNavbar',
+                                        'container_class' => 'collapse navbar-toggleable-sm',
+                                        'container_id' => 'collapsingNavbar',
                                         'menu_class' => 'nav navbar-nav',
                                         'fallback_cb' => '',
                                         'menu_id' => 'main-menu',

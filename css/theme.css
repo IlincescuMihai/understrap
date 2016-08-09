@@ -7200,7 +7200,7 @@ body {
   padding-top: 3.3rem; }
 
 #wrapper-navbar {
-  border-bottom: solid 1px #cccccc; }
+  border-bottom: 0.01em solid  #ddd; }
 
 html,
 body {
@@ -7360,7 +7360,8 @@ footer h4, footer h6 {
     letter-spacing: 1.1px; }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: #001A33; }
+    color: #001A33;
+    border-bottom: 1px solid #cccccc; }
   #topNav {
     background-color: #fff; } }
 
