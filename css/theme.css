@@ -7202,6 +7202,9 @@ body {
 #wrapper-navbar {
   border-bottom: 0.01em solid  #ddd; }
 
+.nav-up {
+  top: -70px; }
+
 html,
 body {
   width: 100%;
