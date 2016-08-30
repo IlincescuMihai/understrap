@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7211,7 +7211,7 @@ body {
   height: 100%; }
 
 body {
-  font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Fira Sans, sans-serif';
   color: #001A33;
   webkit-tap-highlight-color: #222;
   top: 0; }

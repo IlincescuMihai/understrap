@@ -10,10 +10,9 @@
 get_header(); ?>
 
 <div class="wrapper" id="full-width-page-wrapper">
-    
     <div  id="content" class="container">
-        
-	   <div id="primary" class="col-md-12 content-area">
+    
+	   <div id="primary" class="col-md-12 content-area">          
 
             <main id="main" class="site-main" role="main">
 
@@ -22,6 +21,7 @@ get_header(); ?>
                     <?php get_template_part( 'loop-templates/content', 'page' ); ?>
 
                     <?php
+                        do_action( 'Mishu' );
                         // If comments are open or we have at least one comment, load up the comment template
                         if ( comments_open() || get_comments_number() ) :
 
@@ -39,5 +39,3 @@ get_header(); ?>
     </div><!-- Container end -->
     
 </div><!-- Wrapper end -->
-
-<?php get_footer(); ?>

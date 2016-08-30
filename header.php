@@ -35,24 +35,11 @@
                 <div class="container">
 
 
-                            <div class="navbar-header">
-
-                                <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-
-                                 <button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                                    ☰
-                                </button>
-
-                                <!-- Your site title as branding in the menu -->
-                                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-
-                            </div>
-
                             <!-- The WordPress Menu goes here -->
                             <?php wp_nav_menu(
                                     array(
                                         'theme_location' => 'primary',
-                                        'container_class' => 'collapse navbar-toggleable-sm',
+                                        'container_class' => '',
                                         'container_id' => 'collapsingNavbar',
                                         'menu_class' => 'nav navbar-nav',
                                         'fallback_cb' => '',
